@@ -10,6 +10,13 @@ Simple script to backup a Wordpress site in a local folder
 
 Additionally you can add it to a crontab.
 
+Example: `crontab -e`
+
+Run the script every night at 1am
+```
+0 1 * * * /home/user/bin/wp_local_bak.sh
+```
+
 # Beta: remote backup (untested)
 
 - Read first: SCP_keys.md
