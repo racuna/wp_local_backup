@@ -4,6 +4,9 @@
 
 HOY=$(date '+%Y-%m-%d')
 
+# Assuming the params.conf file is in the same folder than this script
+cd "$(dirname "$0")"
+
 echo $HOY
 
 # Wordpress parameters from params.conf
