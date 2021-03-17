@@ -9,3 +9,10 @@ Simple script to backup a Wordpress site in a local folder
 - run script
 
 Additionally you can add it to a crontab.
+
+# Beta: remote backup (untested)
+
+- Read first: SCP_keys.md
+- Check if `ssh user@remotehost` can login without asking for password
+- Uncomment remote backup section of the script
+- Test.
